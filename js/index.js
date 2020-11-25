@@ -18,7 +18,7 @@ function init() {
   var slide = new Slide(width, height, 'out');
 	var l1 = new THREE.ImageLoader();
 	l1.setCrossOrigin('Anonymous');
-	l1.load('https://lh3.googleusercontent.com/sZlIxYPLI-gJ6NCqx0mSk1KNaLGbkHaA1GJpCfnbyi10ZhSwrirV0AggVCAnIrcAa2WXpTxv9G50j_I5qjwnwtEYnhdx4lZH9fiHOMRcHSzJZI0gJ39rW_6xzs5KiF3TCEX_obUduQRCAs6lrSK-hbcPZbPftE-mNfBW8N7yysK5XZ3HS4PnRdjIfB_hAX1OfnnzLxResVasuCJMoYb0wT5Fp7p8C5TIIcl6HS1mc3PhhQSZEvrni9Kta9IVmGKjLhw4mZfASzTfdCiIZ1d_QLpEFdIJ1McNDDXmIlwSbeNsCbDdR7UxeX1yltREeGjVGKmmYBJSBR0PubBvJgTxp_tcbsyUuV8mxHjpyO8kyLUtzaYF8Owk0qp0rWW0gVc1_3FH0Z3_kI9Kx_u3D8sbBQN4Rji9HLF26SxZN8B2Pajy1C0oPCmZbXSdHFXTwuHRb6hiu64qMool-vYJW_GZcZke1h0fF8lMrNqVECiILTNzsNwxuyISUCXhcA9KRhkBY2dkbhCkgvRDr8aRu52qrxu4_8HfkTaznTPSdhYoX8d46ql7Vvv6EKTdgrIzNgAkVyGCumiFQnE5-lWmMfZ_tcszg62YMTyovhIt4ofOi-xYeCOFrldmJk6EI1B16JitH4tYg6pAykaqOUfhTmIYoN92iBxwElYX1pLC1K0ukOR-hcs20e_GFI2Lojj6=w340-h665-no?authuser=0', function(img) {
+	l1.load('https://github.com/geektech123/ultrongeek/blob/main/images/winter.png', function(img) {
 	  slide.setImage(img);
 	})
   root.scene.add(slide);
@@ -26,7 +26,7 @@ function init() {
   var slide2 = new Slide(width, height, 'in');
   var l2 = new THREE.ImageLoader();
 	l2.setCrossOrigin('Anonymous');
-	l2.load('https://raw.githubusercontent.com/scriptonofficial/3D-Image-Transition-Project-Files/master/images/spring.png', function(img) {
+	l2.load('https://github.com/geektech123/ultrongeek/blob/main/images/spring.png', function(img) {
 		slide2.setImage(img);
 	})
 
